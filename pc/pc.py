@@ -7,15 +7,15 @@ import sys
 from google.cloud import dialogflow
 
 LOCAL_DIR_SCRIPT = os.path.dirname(os.path.realpath(__file__))
-# NAO_TRANSCRIBED_FILE = "/home/nao/test.txt"
+# NAO_TRANSCRIBED_FILE = "/home/nao/robot/test.txt"
 # LOCAL_TRANSCRIBED_FILE = os.path.join(LOCAL_DIR_SCRIPT, "test.txt")
-NAO_HANDSHAKE_FILE = "/home/nao/hs.txt"
-NAO_AUDIO_FILE = "/home/nao/test.wav"
+NAO_HANDSHAKE_FILE = "/home/nao/robot/hs.txt"
+NAO_AUDIO_FILE = "/home/nao/robot/test.wav"
 LOCAL_AUDIO_FILE = os.path.join(LOCAL_DIR_SCRIPT, "test.wav")
 LOCAL_PCHS_FILE = os.path.join(LOCAL_DIR_SCRIPT, "pc.txt")
-NAO_PCHS_FILE = "/home/nao/pc.txt"
+NAO_PCHS_FILE = "/home/nao/robot/pc.txt"
 LOCAL_RESPONSE_FILE = os.path.join(LOCAL_DIR_SCRIPT, "response.txt")
-NAO_RESPONSE_FILE = "/home/nao/response.txt"
+NAO_RESPONSE_FILE = "/home/nao/robot/response.txt"
 
 NAO_IP = '192.168.10.100'
 NAO_USER = 'nao'
